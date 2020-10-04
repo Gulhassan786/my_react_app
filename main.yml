@@ -6,8 +6,7 @@ name: react_app
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
- 
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -24,18 +23,18 @@ jobs:
       # Runs a single command using the runners shell
       - name: Setup Node.js enviroment
         uses: actions/setup-node@v2-beta
-        with: 
-           version: 12 
+        with:
+          version: 12
 
       # Runs a set of commands using the runners shell
       - name: Github action for yarn
         uses: Borales/action-yarn@v2.1.0
         with:
-           # yarn commond
+          # yarn commond
           cmd: install
-          
+
       - name: Installing surge
         run: npm install -g surge
-        
+
       - name: deploying on surge
-        run: surge ./build http://react_app_app.surge.sh/ --token ${{secrets.GALLERY_TOKEN}}
+        run: surge ./build http://react_app_app.surge.sh/ --token ${{secrets.react_app_token}}
