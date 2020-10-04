@@ -2,25 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> gul hassan siyal
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return ( < div >
+        <
+        p > how are you gul hassan < /p>    <
+        small class = "
+        text - muted ">Greetings</small> <
+        h1 class = "text-aligen center" > what about you muzamil < /h1> < /
+        div >
+    );
 }
 
 export default App;
