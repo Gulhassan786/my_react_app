@@ -32,11 +32,14 @@ jobs:
         with:
           # yarn commond
           cmd: install
-      - name: creating a build
-        run: yarn build
 
       - name: Installing surge
         run: npm install -g surge
+
+      - name: creating a build
+        run: yarn build
+        env:
+          CI: ""
 
       - name: deploying on surge
         run: surge ./build http://react_app_app.surge.sh/ --token ${{secrets.react_app_token}}
