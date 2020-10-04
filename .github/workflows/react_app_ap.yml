@@ -32,6 +32,8 @@ jobs:
         with:
           # yarn commond
           cmd: install
+      - name: creating a build
+        run: yarn build
 
       - name: Installing surge
         run: npm install -g surge
