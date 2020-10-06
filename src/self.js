@@ -1,6 +1,3 @@
-function self(params) {
-    return ( <
-        h1 > noor hussain < /h1>
-    )
-
+function self(props) {
+    return <h1 > noor hussain { props.n1 } < /h1>;
 }

@@ -1,16 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import sel from "self.js";
 
 function App() {
-    return ( < div >
-        <
-        p > how are you gul hassan < /p>    <
-        small class = "
-        text - muted ">Greetings</small> <
-        h1 class = "text-aligen center" > what about you muzamil < /h1> < /
+    return ( <
         div >
+        <
+        sel name = "gul hassan" / >
+        <
+        /div>
     );
 }
 
