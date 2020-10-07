@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
-import Food from "./dinner.js";
+/*import Food from "./dinner.js";
 import Greet from "./greeting.js";
 import { Message } from "./Message.js"
 
