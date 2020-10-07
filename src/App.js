@@ -28,7 +28,7 @@ function App() {
             }>Click me for counting</button>
 
             <div className={name ? 'namecolor' : ''}>
-                <h1> Asslam o alaikum {name ? 'Gul Hassan' : 'Ali Gul'}</h1>
+                <h1> Asslam o alaikum {name ? 'Sir Mohsin' : 'Sir Amir pinnger'}</h1>
                 <button onClick={() => setname(!name)}>Click me!</button>
 
             </div>
