@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./App.css";
 /*import Food from "./dinner.js";
 import Greet from "./greeting.js";
+*/
 import { Message } from "./Message.js"
 
 /*Below Food is imported from the component dinner.js . And Greet is imported form the component greetings.js
